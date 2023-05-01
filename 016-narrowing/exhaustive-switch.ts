@@ -1,3 +1,8 @@
+/**
+ * FACT 023
+ * 
+ * guard our switch using enum and assertNever
+ */
 export const enum CourseCategory {
   FRONTEND,
   BACKEND,
