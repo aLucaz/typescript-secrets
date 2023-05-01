@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // dependency injection with DIOD
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // "sourceMap": true,
+    "outDir": "dist",
+    // "strictNullChecks": true,
+    "noImplicitAny": true // in case the transpiler couldn't get the type, so it allows to avoid implicit (not explicit) use of any, to avoid explicit use, check .eslint.js
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules", 
+    "**/*.js", 
+    "dist"
+  ]
+}
